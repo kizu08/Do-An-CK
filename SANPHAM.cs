@@ -10,7 +10,7 @@ namespace ShopOnline
         public LOAI_SP LoaiSP { get; set; }
         public string TenSP { get; set; }
         public double DonGiaSP { get; set; }
-        public SANPHAM(string MaSP, LOAI_SP LoaiSP, string TenSP, string MaNVQL,double DonGiaSP, NHACUNGCAP NhaCungCap)
+        public SANPHAM(string MaSP, LOAI_SP LoaiSP, string TenSP, double DonGiaSP)
         {
             this.MaSP = MaSP;
             this.LoaiSP = LoaiSP;
